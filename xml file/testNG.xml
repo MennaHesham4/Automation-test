@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false"  name="qa-challenge">
+    <test  name="test">
+        <parameter name="driver" value="edgeDriver"/>
+        <parameter name="grid" value="true"/>
+        <classes>
+            <class name="test.LoginTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test  name="Test1">
+        <parameter name="driver" value="chromeDriver"/>
+        <classes>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
